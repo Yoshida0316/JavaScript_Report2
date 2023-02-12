@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>    
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>電卓</title>
+ </head>
+ 
+ <body>
+ <div class="calculator">
+  <div>
+   <tb id="result">0</tb>
+  </div>
+  <div>
+  <button class="btn" type="submit" onclick="clickbtn(this)">7</button>
+  <button class="btn" type="submit" onclick="clickbtn(this)">8</button>
+  <button class="btn" type="submit" onclick="clickbtn(this)">9</button>
+  <button class="btn" type="submit" onclick="signbtn(this)">+</button>
+  </div>
+  <div>
+  <button class="btn" type="submit" onclick="clickbtn(this)">4</button>
+  <button class="btn" type="submit" onclick="clickbtn(this)">5</button>
+  <button class="btn" type="submit" onclick="clickbtn(this)">6</button>
+  <button class="btn" type="submit" onclick="signbtn(this)">-</button>
+  </div>
+  <div>
+  <button class="btn" type="submit" onclick="clickbtn(this)">1</button>
+  <button class="btn" type="submit" onclick="clickbtn(this)">2</button>
+  <button class="btn" type="submit" onclick="clickbtn(this)">3</button>
+  <button class="btn" type="submit" onclick="signbtn(this)">*</button>
+  </div>
+  <div>
+  <button class="btn" type="submit" onclick="clickbtn(this)">0</button>
+  <button class="btn" type="submit" onclick="clickbtn(this)">00</button>
+  <button class="btn" type="submit" onclick="pointbtn(this)">.</button>
+  <button class="btn" type="submit" onclick="signbtn(this)">/</button>
+  </div>
+  <div>
+  <button class="btn_dbl" type="submit" onclick="clickbtn(this)">AC</button>
+  <button class="btn_dbl" type="submit" onclick="clickbtn(this)">=</button>
+  </div>
+ </div>
+
+<script src="main.js"></script>     
+ </body>
+    
+</html>
